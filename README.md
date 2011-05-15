@@ -22,3 +22,6 @@ Run in Vim
 The Game of Life will run on the `golife.vim` itself, and you'll see something like this:
 
 ![Game of Life running in Vim](http://bit.ly/kQeroH)
+
+
+PS: it was jsut a quick hack
