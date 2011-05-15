@@ -102,10 +102,9 @@ fun! s:world.born(x, y) abort
   endif
 endf
 
-let b:world = copy(s:world)
 
 fun! s:golife() abort
- 
+  let b:world = copy(s:world)
   while 1
     call b:world.next()
     redraw!
