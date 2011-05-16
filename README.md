@@ -1,12 +1,12 @@
 ## About
 
-During #coderetreat winnipeg we were practicing TDD-ing our solutions of [Convey's Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+During #coderetreat winnipeg we were doing [TDD](http://wiki) for [Convey's Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-After doing TDD session we were allowed to quickly hack working version. That's how [Ruby version were born](https://gist.github.com/972658)
+Having accomplished TDD sessions we had to hack working version. That's how [Ruby version was born](https://gist.github.com/972658)
 
-[Some](http://twitter.com/burkelibbey) [folks](http://twitter.com/stefanpenner) were cool enough to code it to run in Browser using WebGL.
+[Some](http://twitter.com/burkelibbey) [folks](http://twitter.com/stefanpenner) were cool enough make it run in Browser using WebGL.
 
-So I thought why not run it in Vim aswell?
+That lead to creation of Vim's version.
 
 
 ## Instuctions
