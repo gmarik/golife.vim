@@ -11,13 +11,11 @@ That lead to creation of Vim's version.
 
 ## Instuctions
 
-Clone
+  if you're a [`Vundle`](http://github.com/gmarik/vundle) user 
 
-    $ git clone http://github.com/gmarik/golife.vim ~/golife.vim
-
-Run in Vim
-
-    $ vim ~/golife.vim/golife.vim +'source %' +'GoLife'
+- run `:BundleInstall gmarik/golife.vim` 
+- open a file, ie `:e ~/.vim/bundle/golife.vim/plugin/golife.vim`
+- run `:GoLife`
 
 The Game of Life will run on the `golife.vim` itself, and you'll see something like this:
 
