@@ -23,3 +23,43 @@ The Game of Life will run on the `golife.vim` itself, and you'll see something l
 
 
 PS: it was jsut a quick hack
+
+
+
+## Couple figures
+
+       #
+     # #
+      ##
+
+                                        ##
+                                        ##
+
+
+
+
+       #                     ###
+     # #
+      ##                      #
+                              #
+                              #
+
+
+
+
+
+
+                                   ###
+                                    #
+                                    #
+
+
+
+
+                      # #
+                     # # #
+                      # #
+
+                      # #
+                     # # #
+                      # #
