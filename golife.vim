@@ -63,11 +63,17 @@ fun! s:world.next() abort
 
   let [x, y] = [-1, -1]
 
+  let max_y = len(self.get_lines())
+  let max_x = -1
+
   for l in self.get_lines()
-    let y = y + 1
-    let x = -1
-    for c in s:to_list(l)
-      let x = x + 1
+    if len(l) > max_x 
+      let max_x = len(l)
+    endif
+  endfor
+
+  for y in range(max_y + 1)
+    for x in range(max_x + 1)
       call self.born(x,y)
     endfor
   endfor
@@ -78,7 +84,9 @@ endf
 fun! s:world.born(x, y) abort
 	" let self.lines = getline(1,line('$'))
   let [x,y] = [a:x, a:y]
-  let cnt = len(self.neighbours(x,y))
+  let neighbs = self.neighbours(x,y)
+  let cnt = len(neighbs)
+
 
   let cell = self.at(x,y)
 
@@ -102,9 +110,9 @@ fun! s:world.born(x, y) abort
   endif
 endf
 
-
 fun! s:golife() abort
   let b:world = copy(s:world)
+  setl virtualedit=all " important to spawn new cells properly
   while 1
     call b:world.next()
     redraw!
