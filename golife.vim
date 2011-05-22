@@ -102,7 +102,10 @@ fun! s:world.born(x, y) abort
     " with 3 neighbs
     if 3 == cnt
       "newborn
-      call s:cell(x,y, '#')
+      let avg = 0
+      for c in neighbs | let avg = avg + char2nr(c) | endfor
+      let cell = nr2char(avg/cnt)
+      call s:cell(x,y, cell)
     else
       " epmty
       " call s:cell(x,y, ' ')
