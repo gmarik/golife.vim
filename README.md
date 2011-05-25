@@ -1,6 +1,6 @@
 ## About
 
-During #coderetreat winnipeg we were doing [TDD](http://en.wikipedia.org/wiki/Test-driven_development) for [Convey's Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+During #coderetreat winnipeg we were doing [TDD](http://en.wikipedia.org/wiki/Test-driven_development) for [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 Having accomplished TDD sessions we had to hack working version. That's how [Ruby version was born](https://gist.github.com/972658)
 
