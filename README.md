@@ -9,7 +9,7 @@ Having accomplished TDD sessions we had to hack working version. That's how [Rub
 That lead to creation of Vim's version.
 
 
-## Instuctions
+## Instructions
 
   if you're a [`Vundle`](http://github.com/gmarik/vundle) user 
 
